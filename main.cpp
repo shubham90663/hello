@@ -120,7 +120,7 @@ else if(radar_dis<50 && radar_dis >25)
 void pre_coll :: visual_alert(){
 
 if(radar_dis<100 && radar_dis>50)
-    cout<<"No near by Obstacle or Vehicle"<<endl;
+    cout<<"Obstacle in range 100m"<<endl;
 else if(radar_dis<50 && radar_dis >25)
     cout<<"Obstacle in range 50m"<<endl;
     else if(radar_dis <25)
